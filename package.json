@@ -1,7 +1,8 @@
 {
   "name": "pg-wait-connection",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wait PostgreSQL connection",
+  "keywords": ["wait", "connection", "PostgreSQL", "pg", "node-postgres"],
   "main": "./build",
   "typings": "./src/index.ts",
   "repository": "git@github.com:neruchev/pg-wait-connection.git",

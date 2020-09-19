@@ -41,6 +41,7 @@ export class PgWaitConnection {
       const lag = nextIndex * 2 * 1000;
 
       if (this.debug) {
+        console.error(error);
         console.log('Timeout:', lag, 'ms');
       }
 
