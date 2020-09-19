@@ -1,0 +1,18 @@
+{
+  "name": "pg-wait-connection",
+  "version": "0.0.1",
+  "description": "Wait PostgreSQL connection",
+  "main": "./build",
+  "typings": "./src/index.ts",
+  "repository": "git@github.com:neruchev/pg-wait-connection.git",
+  "author": "Kirill Neruchev <kirill@neruchev.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "devDependencies": {
+    "@types/pg": "^7.14.5",
+    "typescript": "^4.0.3"
+  },
+  "files": ["build", "src"]
+}
